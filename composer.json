@@ -1,0 +1,21 @@
+{
+  "name": "yarmat/inkstation-scrapper",
+  "description": "https://www.inkstation.com.au - scrapper",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yaroslav Matviienko",
+      "email": "yarmatua@gmail.com"
+    }
+  ],
+  "require": {
+    "fabpot/goutte": "^3.2",
+    "symfony/var-dumper": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
